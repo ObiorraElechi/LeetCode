@@ -9,7 +9,7 @@
  * Obi Note: Did this quickly before work, will implement hash map to achieve O(n) time complexity.
  */
 
-#define HASH_SIZE 200003
+#define HASH_SIZE 10000
 
 typedef struct node{
     int key;
@@ -96,5 +96,5 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     free(result);
     freeHashMap(map);
     return NULL;
-    
+
 }
